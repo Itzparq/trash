@@ -1,0 +1,4 @@
+trash
+=====
+
+All of all
