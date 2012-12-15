@@ -1,0 +1,18 @@
+# Мой первый код на Python
+# Задача: вывести некоторое количество чисел Фибоначчи
+
+fbnch1 = 0
+fbnch2 = 1
+
+print fbnch1
+print fbnch2
+
+n = 10
+i = 0
+
+while i < n :
+    sum = fbnch1 + fbnch2
+    print sum
+    fbnch1 = fbnch2
+    fbnch2 = sum
+    i = i + 1
